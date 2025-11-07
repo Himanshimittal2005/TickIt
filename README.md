@@ -1,16 +1,33 @@
-# React + Vite
+TickIt - Task Management Web App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TickIt is a modern, interactive task management web application built with React, Express, and MongoDB. It allows multiple users to register, login, manage their tasks, and track progress, all with a clean and vibrant interface.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+User Authentication: Register and login with email and password (securely hashed).
 
-## React Compiler
+Task Management: Add, complete, and delete tasks.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Persistent Data: Tasks are saved in MongoDB and linked to individual users.
 
-## Expanding the ESLint configuration
+Task Progress: Dynamic progress bar to visualize task completion.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Filters: Filter tasks by All, Completed, or Pending.
+
+Interactive Dashboard: Includes a sidebar, animated buttons, and a "Connect with People" feature.
+
+Themes: Switch between multiple vibrant themes (pink, green, blue, dark).
+
+Responsive Design: Works smoothly on both desktop and mobile devices.
+
+Animated UI: Smooth transitions and button hover effects with Framer Motion.
+
+Tech Stack
+
+Frontend: React, Framer Motion, CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB (with Mongoose)
+
+Authentication: JWT, bcryptjs
